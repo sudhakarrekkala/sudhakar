@@ -1,0 +1,94 @@
+.Flexparent{
+  display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.child1{
+width:30%;
+margin:2%;
+padding:2%;
+border:2px solid #ddd;
+}
+.child2{
+width:70%;
+margin:2%;
+padding:2%;
+border:2px solid #ddd;
+}
+img{
+width:200px;
+height:auto;
+display: block;
+margin-left:auto;
+margin-right:auto;
+border-radius:50%;
+}
+@media screen and (min-width: 320px) and (max-width:480px){
+    body {
+        background-color: lightgreen;
+    }
+    .flexparent{
+      display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .child1{
+    width:70%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    }
+    .child2{
+    width:30%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:520px){
+    body {
+        background-color:orange;
+    }
+    .flexparent{
+      display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .child1{
+    width:70%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    }
+    .child2{
+    width:30%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    }
+  }
+@media screen and (min-width:521px) and (max-width:800px){
+    body {
+        background-color: #ddd;
+    }
+    .flexparent{
+      display:flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .child1{
+    width:70%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    background-color: orange;
+    }
+    .child2{
+    width:30%;
+    margin:2%;
+    padding:2%;
+    border:2px solid #ddd;
+    background-color: lightgreen;
+    }
+}

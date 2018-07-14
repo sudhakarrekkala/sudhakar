@@ -1,0 +1,50 @@
+{
+"basics":{
+"name":"sudhakar",
+"email":"sudhakarrekkala123@gmail.com",
+"mobile":"+91 8179729155"
+},
+"career":{
+  "info":"become an sports person and thats my goal"
+},
+"education":[
+  {
+    "Degree":"B.Tech(C.S.E)",
+    "Institute":"avanthi",
+    "Data":["2015-19","71%"]
+  },
+{
+    "Degree":"intermediate",
+  "Institute":"sri pratibha junior college ",
+  "Data":["2013-15 ","95%"]
+},
+{
+  "Degree":"ssc",
+"Institute":"zphs guravajipeta",
+"Data":["2012-13","8.8"]
+}
+],
+"skills":[
+  {
+    "title":"Programming Languages",
+    "info":["c","c++","java","html"]
+  },
+    {
+
+    "title":"Database",
+    "info":["mongoDb","mySql","Oracle"]
+  },
+  {
+    "title":"Web Technologies",
+    "info":["HTML5","CSS3","JavaScript"]
+  },
+  {
+    "title":"Libraries and Frameworks",
+    "info":["ionic","Angular","expressJs","Net","Django"]
+  },
+  {
+    "title":"Operating System",
+    "info":["Linux","Windows","Dos"]
+  }
+]
+}
